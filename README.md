@@ -1,2 +1,0 @@
-# MetaRent Socket
-
