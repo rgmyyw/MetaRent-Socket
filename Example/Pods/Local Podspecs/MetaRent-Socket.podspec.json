@@ -1,0 +1,22 @@
+{
+  "name": "MetaRent-Socket",
+  "version": "0.1.0",
+  "summary": "A short description of MetaRent-Socket.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yanghai/MetaRent-Socket",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yanghai": "coderhaiyang@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/yanghai/MetaRent-Socket.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "MetaRent-Socket/Classes/**/*"
+}

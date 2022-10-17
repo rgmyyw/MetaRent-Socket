@@ -1,0 +1,16 @@
+PODS:
+  - MetaRent-Socket (0.1.0)
+
+DEPENDENCIES:
+  - MetaRent-Socket (from `../`)
+
+EXTERNAL SOURCES:
+  MetaRent-Socket:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MetaRent-Socket: 3e9ee9257f7fe1f80b99390f4b7c68868b92d7c9
+
+PODFILE CHECKSUM: d4417a1d4e6bf23be093a526ec0c5050dfed73f0
+
+COCOAPODS: 1.11.3

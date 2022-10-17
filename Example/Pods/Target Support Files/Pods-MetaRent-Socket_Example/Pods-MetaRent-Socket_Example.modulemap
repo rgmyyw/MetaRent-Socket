@@ -1,0 +1,6 @@
+framework module Pods_MetaRent_Socket_Example {
+  umbrella header "Pods-MetaRent-Socket_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

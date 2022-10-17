@@ -1,0 +1,1123 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0157F6A65921DF7573AEE18B08A4D86B /* NSUserDefaults+RMSaveCustomObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 35CEBF6272545BB494C165DC27A77030 /* NSUserDefaults+RMSaveCustomObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02B77E10958566C7EECF22E31867C45D /* Protocal.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E407111B311CD6E71FA725618258AF /* Protocal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F8F69AB62000BF37F1C2386E0A2790 /* PKeepAliveResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5787C577DE8226E2F8FECDE8E121CCF6 /* PKeepAliveResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06998114495A6FD0FD1F908D035ADF1C /* TCPUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DA70907B91FEC382DA28C5033E82717D /* TCPUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B961F15BD9DBE9CA7493C2087E5C50B /* QoS4ReciveDaemon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9108292A96A0BBE0F0EC24ED08BA390F /* QoS4ReciveDaemon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C1FB6350DF026F59F08BF4321B43064 /* LocalSocketProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A605F6E83944A927BFC1818A3395FE81 /* LocalSocketProvider.m */; };
+		0CBAD6E8D196BDA94736398CB0BBB7EE /* Pods-MetaRent-Socket_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65586FD89F4881448427798072D2446E /* Pods-MetaRent-Socket_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F159199847CA3F3FDA4F6303CF79471 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		12B8F04148D93307FB4273BDF312A3B0 /* Protocal.m in Sources */ = {isa = PBXBuildFile; fileRef = FF66212CE943BDB9F38472A1DA6A4D5C /* Protocal.m */; };
+		143F4CEB00B691EECE40C75E108C64E7 /* ToolKits.h in Headers */ = {isa = PBXBuildFile; fileRef = D96AD61E3695540E4D7D889324FB2A74 /* ToolKits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1477914C3355DF448E6BF6249221EE62 /* ProtocalFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D63E8323A1F150BDDF67D1F6812A725B /* ProtocalFactory.m */; };
+		1645C28E3976C72BBE3B9CF32718A8CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		16718363A5D047D6C6B2D8C6F14464B8 /* QoS4ReciveDaemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 58556EEE242720AC60477F04C4BE4DEB /* QoS4ReciveDaemon.m */; };
+		168439569DD7A5ED3EA69F66F3414679 /* PKickoutInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FC6181D8E19418AF0F8881C60CADC3 /* PKickoutInfo.m */; };
+		180D4E3762BAFD55F85CFDB5608D7313 /* MBGCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E47A5E051BBC5EB3D0E10754E0FF673 /* MBGCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C9A5488D2793D7EB30AC6A98B435545 /* PErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E992D42C2E7C2DE8F99FB97DBF4 /* PErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23FF9B460E6CE458E4C9071A17E22153 /* PKeepAliveResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EFEF50BDF4E5E9F22172D96F42F1D5 /* PKeepAliveResponse.m */; };
+		257D13EBCFB08A3156369308B9A2D87E /* ProtocalFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7523C8FB8AF6C94720C0090C19333453 /* ProtocalFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27546FBF440524BEC635A11A84825264 /* PLoginInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EE4F1C88E5E5E65384F840069E8B96 /* PLoginInfoResponse.m */; };
+		324BB40480F5C1406D9D48B999A8DFF1 /* CharsetHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B78924B26209F4E98D6FFD7B3D7F0E /* CharsetHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3422C2DE8B45DC57200D3AE4D6736EAB /* NSMutableDictionary+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 282246AF2E6C17870EA8967FDA4A2453 /* NSMutableDictionary+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		366FBBFEE76CEE25C0C20818AFB5A688 /* Documentation.html in Sources */ = {isa = PBXBuildFile; fileRef = D1E55286491D82CED3C8EB2B2BEF4D68 /* Documentation.html */; };
+		3778670781DB6BD844CD7B9A36AB5D51 /* PKeepAlive.m in Sources */ = {isa = PBXBuildFile; fileRef = 454F656EE509C751EF62820BCCE8AB13 /* PKeepAlive.m */; };
+		3865F90C7DC0B9B5701BBC27FB55CB04 /* QoS4SendDaemon.h in Headers */ = {isa = PBXBuildFile; fileRef = 175DDB18A3949675001DDA6C7CCBFFBF /* QoS4SendDaemon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DE4B7F88E286573DE0F0403B0F6FCAA /* CharsetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFF0574711DAABB91E90001C27691BE /* CharsetHelper.m */; };
+		42AB6B2C7B6AD121407C0B37B46C16E9 /* ToolKits.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C780EF54EA2010745644DF5942FB16 /* ToolKits.m */; };
+		45290CBFAD820503981887C7D5AEFBA2 /* TCPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B5A16744E34038A0F06C039FACA5FA /* TCPUtils.m */; };
+		4A4A6D070DB1B5CA0B5B8A12CEEFBAFC /* Pods-MetaRent-Socket_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB85D9DDD458A6AE2C0225B084634ED4 /* Pods-MetaRent-Socket_Example-dummy.m */; };
+		4AAD9739E4B3005444913FD4D1D8D627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4AD7E21774788D1D2BFD8655B20F82B1 /* NSObject+RMArchivable.m in Sources */ = {isa = PBXBuildFile; fileRef = A895A028073644C7FCF4B58F9143C447 /* NSObject+RMArchivable.m */; };
+		4B83428602C1779780BDD18372BA8306 /* ProtocalType.h in Headers */ = {isa = PBXBuildFile; fileRef = 68FFC27A75B4FB3182F3C5DAC1A95A17 /* ProtocalType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BA4C3D7B3917CC922CF705865082381 /* AutoReLoginDaemon.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB8B4EDFA9D06B27FCD141EA562F639 /* AutoReLoginDaemon.m */; };
+		5CF17C1C11DF48D13B9EED3777402C06 /* ConfigEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FBB952D7413C3FDE3EA40F73DAF5275 /* ConfigEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E47E1B75F6E3DF90BF7B4C4256BA7F2 /* ClientCoreSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846787502E572CB580368E846CF02C4 /* ClientCoreSDK.m */; };
+		6B017E73DDC4AC4CCB2E225FED2EDAC7 /* ChatBaseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F660F3139BA95FD02FD5777C897FDAF3 /* ChatBaseEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7374F2E9AE17F2F3C8FAA7FF3D2B0640 /* PErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EECDF9F853AEFB3F604D88A9D92D4FE7 /* PErrorResponse.m */; };
+		75B79D5EA87DE91F08CE3526F5D9E603 /* TCPFrameCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 944FBE830859F2238873DDEEE73FA9E6 /* TCPFrameCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		815CC95F1203C74CC03F568BA7A1F14F /* Pods-MetaRent-Socket_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4BDB35F6C0F94B4858DDB60FE4D1C2 /* Pods-MetaRent-Socket_Tests-dummy.m */; };
+		83E14BB4371A0EFEFF1605EA0F27089F /* PKeepAlive.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F50A50DEC5023EAD9DE2581D3DBBF9 /* PKeepAlive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88582A0914AF819F1032AAECA9FE0985 /* QoS4SendDaemon.m in Sources */ = {isa = PBXBuildFile; fileRef = B038C88BBC740D92CB4EDE79D46E9C8A /* QoS4SendDaemon.m */; };
+		8D27DDD79BC57A5C9D236CB92FA7FD3B /* MBGCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C31A1FFEF3E3F4FCA145A29C8652F67 /* MBGCDAsyncSocket.m */; };
+		8DB8EE4B0FE88D3C2CD5EE12DC6E082C /* MessageQoSEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CB27B1240F4717DDE8CD3EEFB3BE16 /* MessageQoSEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945D253715CA51122EC0328A9B8F08C4 /* AutoReLoginDaemon.h in Headers */ = {isa = PBXBuildFile; fileRef = A7275F33399BCD133E076945E67D4130 /* AutoReLoginDaemon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948ADBE431D24CA2D57A034DE2C42AB5 /* NSObject+RMCopyable.h in Headers */ = {isa = PBXBuildFile; fileRef = 542C520466DA785FFF49F9D64A8EF6BF /* NSObject+RMCopyable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B4E33A6E5E6961958ECE81B64148886 /* MetaRent-Socket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 379368F862274761405206362F820A5A /* MetaRent-Socket-dummy.m */; };
+		A3822674AAAA6A21709D11C8719F4E2B /* NSObject+RMArchivable.h in Headers */ = {isa = PBXBuildFile; fileRef = 39114C6D7A60C7B557E5A783D779D22F /* NSObject+RMArchivable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3CFF77C8DE619936D32A51EF69D367D /* LocalSocketProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 04296F37C70121EBD291D6AF91D18123 /* LocalSocketProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A424A952FC20E42382C152B4850490D6 /* PLoginInfoResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = BDFF4D3890D9F40DA8E967316020B573 /* PLoginInfoResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8A8CDF84EBF99813E38B9B0650DFC0F /* KeepAliveDaemon.h in Headers */ = {isa = PBXBuildFile; fileRef = BA00D9ABC0C283D7C4B01285923D42F1 /* KeepAliveDaemon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9C1DB34D42632DE34AE5AB0E5D80695 /* NSMutableDictionary+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE655E6AB6017B730EF4886F8C67C1 /* NSMutableDictionary+Ext.m */; };
+		AAFB2F9F5C1EDBFF6D78DAACBEE37B3D /* NSUserDefaults+RMSaveCustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A081CD73F630168FD10A109F9EEF73C8 /* NSUserDefaults+RMSaveCustomObject.m */; };
+		AEB7D158F4F4350B93A39E75A079B00C /* NSObject+RMCopyable.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC63EE8675CDD61680B9008F56FA5 /* NSObject+RMCopyable.m */; };
+		B33B9D43E52A31152BFA5DF75AF4D71D /* LocalDataSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6FC0D90BD6A7C7CE09739FB7A222FC /* LocalDataSender.m */; };
+		BBB3C7AE8BCEC330A16F8C7AD4C79985 /* ClientCoreSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F7BBC9E3ADE9A83E1BCC4AFD1735AB6A /* ClientCoreSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC48B06E7D11A6044ACFEDEFFAF2FCE7 /* MBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C8B9E251605773EEBDB18149F84FA3 /* MBReachability.m */; };
+		BFB9A8F50889CA2CCAB175003FEEF9BE /* CompletionDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 25021B740BA36132E31CCFBE36069984 /* CompletionDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C5C07C181E7CD594A9F1FEC621D696 /* RMMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E7CF82B524A708F2B6EB3A22629E16F /* RMMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C47A7A63E26B26F33B488E03AD10DBD9 /* LocalDataReciever.m in Sources */ = {isa = PBXBuildFile; fileRef = BF180C6061019BDE07CEF2079194E938 /* LocalDataReciever.m */; };
+		C5E0185D56328C6A45AC7F71DAF06567 /* KeepAliveDaemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E96D7C7C55F8F9CA9C831F78C4BC50B /* KeepAliveDaemon.m */; };
+		C7AF534B88114875086DE763DB57236D /* TCPFrameCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AA0C758010A223381606369902889F /* TCPFrameCodec.m */; };
+		D323E6071F121382E807FF9E95DB7C46 /* ConfigEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC252CB04C86BA92F14D6B128154BB /* ConfigEntity.m */; };
+		DA26E8C01727AE73E5E1302AD3502F3C /* Pods-MetaRent-Socket_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BD3A570EA26EA6BD109CD3091DBCFC /* Pods-MetaRent-Socket_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC6FDF3B38F00544F63405B6DAF352DF /* PLoginInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FE34CEF268E519F09B9481BEF872C /* PLoginInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E30B7CA31E7C2C70175AC94E956D983D /* MBReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8E2D0F7AA0F8FBB534D7985CCA9794 /* MBReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E32849C6F12EB6C6CDC7BFF033C993CC /* PKickoutInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8E61EB0DA1F77249CCC79810275A0E /* PKickoutInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6CA69F233A4AB033A642E3E16A0B038 /* LocalDataReciever.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E892012FE44C0C3B472ADE6C808D4F1 /* LocalDataReciever.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA2BE8F33D66B11E8C636DBDE396E56B /* MetaRent-Socket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9FDAD3C08AE214689BBD5AA4F90338 /* MetaRent-Socket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED8358A2B050F453A53985C618972549 /* ChatMessageEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 584EADCAC99FE86DA7410A932CF09EE4 /* ChatMessageEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1DF5A2C3B5A4A6D363FC8CA1BEF9880 /* PLoginInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D833A510AA2ACE5F2E08C7B135A06900 /* PLoginInfo.m */; };
+		F7278ADC55941110A98453F95E75D665 /* RMMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 410C98CD6DE45844FF20FA419CEFD7B9 /* RMMapper.m */; };
+		F9D4A9808AEC04394AC61663F9CB30A5 /* ErrorCode.h in Headers */ = {isa = PBXBuildFile; fileRef = D36FED12A96852AC4715B72299D3410C /* ErrorCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDD9495CF26D5C2753CC0C0CC99CC687 /* LocalDataSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 592B620BF148928CD759ED9715F716B5 /* LocalDataSender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62324493900FBFD2A14F7B05400A4D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6064F286FEAC5335665A3F3893AEF7CA;
+			remoteInfo = "Pods-MetaRent-Socket_Example";
+		};
+		D117FF3F7F5ACFBA4121F1506968B095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5606A7849E90CD10D99960F163CBDA5;
+			remoteInfo = "MetaRent-Socket";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04296F37C70121EBD291D6AF91D18123 /* LocalSocketProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LocalSocketProvider.h; sourceTree = "<group>"; };
+		0FBB952D7413C3FDE3EA40F73DAF5275 /* ConfigEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ConfigEntity.h; sourceTree = "<group>"; };
+		10EE4F1C88E5E5E65384F840069E8B96 /* PLoginInfoResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PLoginInfoResponse.m; sourceTree = "<group>"; };
+		175DDB18A3949675001DDA6C7CCBFFBF /* QoS4SendDaemon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QoS4SendDaemon.h; sourceTree = "<group>"; };
+		18B78924B26209F4E98D6FFD7B3D7F0E /* CharsetHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CharsetHelper.h; sourceTree = "<group>"; };
+		1AB3BAEFF5A8A5ECC7709A35B160C0D1 /* Pods-MetaRent-Socket_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetaRent-Socket_Tests-Info.plist"; sourceTree = "<group>"; };
+		25021B740BA36132E31CCFBE36069984 /* CompletionDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CompletionDefine.h; sourceTree = "<group>"; };
+		264B43F1A1FEBA1A78661CDDBE6112F5 /* Pods-MetaRent-Socket_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MetaRent-Socket_Example.modulemap"; sourceTree = "<group>"; };
+		282246AF2E6C17870EA8967FDA4A2453 /* NSMutableDictionary+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Ext.h"; sourceTree = "<group>"; };
+		2848A99DFE181F3DA10077BACDB22CE8 /* Pods-MetaRent-Socket_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetaRent-Socket_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		32C780EF54EA2010745644DF5942FB16 /* ToolKits.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ToolKits.m; sourceTree = "<group>"; };
+		35CEBF6272545BB494C165DC27A77030 /* NSUserDefaults+RMSaveCustomObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+RMSaveCustomObject.h"; sourceTree = "<group>"; };
+		35E3469226B47433D71FC8C1F692DA0E /* MetaRent-Socket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MetaRent-Socket.debug.xcconfig"; sourceTree = "<group>"; };
+		379368F862274761405206362F820A5A /* MetaRent-Socket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MetaRent-Socket-dummy.m"; sourceTree = "<group>"; };
+		37BD3A570EA26EA6BD109CD3091DBCFC /* Pods-MetaRent-Socket_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MetaRent-Socket_Example-umbrella.h"; sourceTree = "<group>"; };
+		38292ED4440783AFB58D5C155232B561 /* MetaRent-Socket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "MetaRent-Socket.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		39114C6D7A60C7B557E5A783D779D22F /* NSObject+RMArchivable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+RMArchivable.h"; sourceTree = "<group>"; };
+		397E579FB22DBE20D980C9C2351ECD21 /* Pods-MetaRent-Socket_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MetaRent-Socket_Example"; path = Pods_MetaRent_Socket_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABE655E6AB6017B730EF4886F8C67C1 /* NSMutableDictionary+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Ext.m"; sourceTree = "<group>"; };
+		3E892012FE44C0C3B472ADE6C808D4F1 /* LocalDataReciever.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LocalDataReciever.h; sourceTree = "<group>"; };
+		3F2BD4136B26571F086EC34D0101519A /* Pods-MetaRent-Socket_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetaRent-Socket_Example-Info.plist"; sourceTree = "<group>"; };
+		40FC6181D8E19418AF0F8881C60CADC3 /* PKickoutInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PKickoutInfo.m; sourceTree = "<group>"; };
+		410C98CD6DE45844FF20FA419CEFD7B9 /* RMMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RMMapper.m; sourceTree = "<group>"; };
+		425EA9D3EF3056C58FFED117D5A7976A /* Pods-MetaRent-Socket_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetaRent-Socket_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		427F53F40178A4A8785195626FB4398E /* Pods-MetaRent-Socket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetaRent-Socket_Example.release.xcconfig"; sourceTree = "<group>"; };
+		43F50A50DEC5023EAD9DE2581D3DBBF9 /* PKeepAlive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PKeepAlive.h; sourceTree = "<group>"; };
+		454F656EE509C751EF62820BCCE8AB13 /* PKeepAlive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PKeepAlive.m; sourceTree = "<group>"; };
+		45AA0C758010A223381606369902889F /* TCPFrameCodec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TCPFrameCodec.m; sourceTree = "<group>"; };
+		4AFF9C6F8B4E78D0E4A34A5DB94B769B /* Pods-MetaRent-Socket_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MetaRent-Socket_Tests.modulemap"; sourceTree = "<group>"; };
+		4E7CF82B524A708F2B6EB3A22629E16F /* RMMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RMMapper.h; sourceTree = "<group>"; };
+		4E8E61EB0DA1F77249CCC79810275A0E /* PKickoutInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PKickoutInfo.h; sourceTree = "<group>"; };
+		542C520466DA785FFF49F9D64A8EF6BF /* NSObject+RMCopyable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+RMCopyable.h"; sourceTree = "<group>"; };
+		55E9DE6EB07C6D98F4E937CB6978B6B8 /* Pods-MetaRent-Socket_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MetaRent-Socket_Tests"; path = Pods_MetaRent_Socket_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5787C577DE8226E2F8FECDE8E121CCF6 /* PKeepAliveResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PKeepAliveResponse.h; sourceTree = "<group>"; };
+		584EADCAC99FE86DA7410A932CF09EE4 /* ChatMessageEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChatMessageEvent.h; sourceTree = "<group>"; };
+		58556EEE242720AC60477F04C4BE4DEB /* QoS4ReciveDaemon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QoS4ReciveDaemon.m; sourceTree = "<group>"; };
+		592B620BF148928CD759ED9715F716B5 /* LocalDataSender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LocalDataSender.h; sourceTree = "<group>"; };
+		5EC6EB46DE7CF61F3F6B9BAE38935420 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		65378C69BB12769FE183C9B98A733902 /* Pods-MetaRent-Socket_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MetaRent-Socket_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65586FD89F4881448427798072D2446E /* Pods-MetaRent-Socket_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MetaRent-Socket_Tests-umbrella.h"; sourceTree = "<group>"; };
+		68FFC27A75B4FB3182F3C5DAC1A95A17 /* ProtocalType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ProtocalType.h; sourceTree = "<group>"; };
+		6A4BDB35F6C0F94B4858DDB60FE4D1C2 /* Pods-MetaRent-Socket_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MetaRent-Socket_Tests-dummy.m"; sourceTree = "<group>"; };
+		6D6FC0D90BD6A7C7CE09739FB7A222FC /* LocalDataSender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LocalDataSender.m; sourceTree = "<group>"; };
+		6E8E2D0F7AA0F8FBB534D7985CCA9794 /* MBReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBReachability.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7523C8FB8AF6C94720C0090C19333453 /* ProtocalFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ProtocalFactory.h; sourceTree = "<group>"; };
+		7846787502E572CB580368E846CF02C4 /* ClientCoreSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ClientCoreSDK.m; sourceTree = "<group>"; };
+		81E407111B311CD6E71FA725618258AF /* Protocal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Protocal.h; sourceTree = "<group>"; };
+		8C31A1FFEF3E3F4FCA145A29C8652F67 /* MBGCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBGCDAsyncSocket.m; sourceTree = "<group>"; };
+		9108292A96A0BBE0F0EC24ED08BA390F /* QoS4ReciveDaemon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QoS4ReciveDaemon.h; sourceTree = "<group>"; };
+		91684E562F86246D0323640F5E17BBD3 /* Pods-MetaRent-Socket_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetaRent-Socket_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		944FBE830859F2238873DDEEE73FA9E6 /* TCPFrameCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCPFrameCodec.h; sourceTree = "<group>"; };
+		96F87D1DDFCBF796A6D18CBAFB93BDDC /* Pods-MetaRent-Socket_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MetaRent-Socket_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CA2B38A71ACD6150C4EEE921833C27B /* Pods-MetaRent-Socket_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetaRent-Socket_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E47A5E051BBC5EB3D0E10754E0FF673 /* MBGCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBGCDAsyncSocket.h; sourceTree = "<group>"; };
+		9E96D7C7C55F8F9CA9C831F78C4BC50B /* KeepAliveDaemon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KeepAliveDaemon.m; sourceTree = "<group>"; };
+		A081CD73F630168FD10A109F9EEF73C8 /* NSUserDefaults+RMSaveCustomObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+RMSaveCustomObject.m"; sourceTree = "<group>"; };
+		A3169E992D42C2E7C2DE8F99FB97DBF4 /* PErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PErrorResponse.h; sourceTree = "<group>"; };
+		A605F6E83944A927BFC1818A3395FE81 /* LocalSocketProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LocalSocketProvider.m; sourceTree = "<group>"; };
+		A7275F33399BCD133E076945E67D4130 /* AutoReLoginDaemon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AutoReLoginDaemon.h; sourceTree = "<group>"; };
+		A895A028073644C7FCF4B58F9143C447 /* NSObject+RMArchivable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RMArchivable.m"; sourceTree = "<group>"; };
+		ACBBC63EE8675CDD61680B9008F56FA5 /* NSObject+RMCopyable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RMCopyable.m"; sourceTree = "<group>"; };
+		AE10539A153997F70B50578C691F2EFB /* MetaRent-Socket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MetaRent-Socket-Info.plist"; sourceTree = "<group>"; };
+		B038C88BBC740D92CB4EDE79D46E9C8A /* QoS4SendDaemon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QoS4SendDaemon.m; sourceTree = "<group>"; };
+		B1319A3D3061CF9CA48C8AC883CBF36E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B3EC252CB04C86BA92F14D6B128154BB /* ConfigEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ConfigEntity.m; sourceTree = "<group>"; };
+		B5B5A16744E34038A0F06C039FACA5FA /* TCPUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TCPUtils.m; sourceTree = "<group>"; };
+		B641A6153614574573940C617B94B7BB /* MetaRent-Socket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "MetaRent-Socket.modulemap"; sourceTree = "<group>"; };
+		B70FE34CEF268E519F09B9481BEF872C /* PLoginInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLoginInfo.h; sourceTree = "<group>"; };
+		BA00D9ABC0C283D7C4B01285923D42F1 /* KeepAliveDaemon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KeepAliveDaemon.h; sourceTree = "<group>"; };
+		BB85D9DDD458A6AE2C0225B084634ED4 /* Pods-MetaRent-Socket_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MetaRent-Socket_Example-dummy.m"; sourceTree = "<group>"; };
+		BDFF4D3890D9F40DA8E967316020B573 /* PLoginInfoResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLoginInfoResponse.h; sourceTree = "<group>"; };
+		BF180C6061019BDE07CEF2079194E938 /* LocalDataReciever.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LocalDataReciever.m; sourceTree = "<group>"; };
+		BFB8B4EDFA9D06B27FCD141EA562F639 /* AutoReLoginDaemon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AutoReLoginDaemon.m; sourceTree = "<group>"; };
+		BFFF0574711DAABB91E90001C27691BE /* CharsetHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CharsetHelper.m; sourceTree = "<group>"; };
+		CA9FDAD3C08AE214689BBD5AA4F90338 /* MetaRent-Socket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MetaRent-Socket-umbrella.h"; sourceTree = "<group>"; };
+		CADBB53CB269492C99F059BC22F6BAE4 /* MetaRent-Socket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "MetaRent-Socket"; path = MetaRent_Socket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB99A594E6E225A570A722DDDCFA71F1 /* Pods-MetaRent-Socket_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetaRent-Socket_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1E55286491D82CED3C8EB2B2BEF4D68 /* Documentation.html */ = {isa = PBXFileReference; includeInIndex = 1; path = Documentation.html; sourceTree = "<group>"; };
+		D2C8B9E251605773EEBDB18149F84FA3 /* MBReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBReachability.m; sourceTree = "<group>"; };
+		D36FED12A96852AC4715B72299D3410C /* ErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ErrorCode.h; sourceTree = "<group>"; };
+		D63E8323A1F150BDDF67D1F6812A725B /* ProtocalFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ProtocalFactory.m; sourceTree = "<group>"; };
+		D833A510AA2ACE5F2E08C7B135A06900 /* PLoginInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PLoginInfo.m; sourceTree = "<group>"; };
+		D96AD61E3695540E4D7D889324FB2A74 /* ToolKits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ToolKits.h; sourceTree = "<group>"; };
+		DA70907B91FEC382DA28C5033E82717D /* TCPUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCPUtils.h; sourceTree = "<group>"; };
+		DD900036846F60B37E98BED9F5E8FD2C /* MetaRent-Socket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MetaRent-Socket.release.xcconfig"; sourceTree = "<group>"; };
+		E0CB27B1240F4717DDE8CD3EEFB3BE16 /* MessageQoSEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MessageQoSEvent.h; sourceTree = "<group>"; };
+		E58291DF8611DF1B42B3BC414110C44E /* MetaRent-Socket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MetaRent-Socket-prefix.pch"; sourceTree = "<group>"; };
+		E7EFEF50BDF4E5E9F22172D96F42F1D5 /* PKeepAliveResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PKeepAliveResponse.m; sourceTree = "<group>"; };
+		EB98A931235347E0D70027EDCECE74C7 /* Pods-MetaRent-Socket_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetaRent-Socket_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EECDF9F853AEFB3F604D88A9D92D4FE7 /* PErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PErrorResponse.m; sourceTree = "<group>"; };
+		F660F3139BA95FD02FD5777C897FDAF3 /* ChatBaseEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChatBaseEvent.h; sourceTree = "<group>"; };
+		F7BBC9E3ADE9A83E1BCC4AFD1735AB6A /* ClientCoreSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ClientCoreSDK.h; sourceTree = "<group>"; };
+		FF66212CE943BDB9F38472A1DA6A4D5C /* Protocal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Protocal.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AE43D969BC6E57B1E2850D6E724A86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1645C28E3976C72BBE3B9CF32718A8CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0DECC1F3960A120C4EB54229D50DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AAD9739E4B3005444913FD4D1D8D627 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD45E03E8EEB9885D238A1672C8F299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F159199847CA3F3FDA4F6303CF79471 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FF3C072130ABCE2B9AB7D7000A9D06A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CADBB53CB269492C99F059BC22F6BAE4 /* MetaRent-Socket */,
+				397E579FB22DBE20D980C9C2351ECD21 /* Pods-MetaRent-Socket_Example */,
+				55E9DE6EB07C6D98F4E937CB6978B6B8 /* Pods-MetaRent-Socket_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185DDB7754D6199DF7D893CB82B8BDB9 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F660F3139BA95FD02FD5777C897FDAF3 /* ChatBaseEvent.h */,
+				584EADCAC99FE86DA7410A932CF09EE4 /* ChatMessageEvent.h */,
+				E0CB27B1240F4717DDE8CD3EEFB3BE16 /* MessageQoSEvent.h */,
+			);
+			name = Delegate;
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		38270876DF07C0E7F8ACBD73DD406F0D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B1319A3D3061CF9CA48C8AC883CBF36E /* LICENSE */,
+				38292ED4440783AFB58D5C155232B561 /* MetaRent-Socket.podspec */,
+				5EC6EB46DE7CF61F3F6B9BAE38935420 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		43CDCF6EBCEEDC4832E4BBD31B0D6F24 /* Pods-MetaRent-Socket_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4AFF9C6F8B4E78D0E4A34A5DB94B769B /* Pods-MetaRent-Socket_Tests.modulemap */,
+				65378C69BB12769FE183C9B98A733902 /* Pods-MetaRent-Socket_Tests-acknowledgements.markdown */,
+				91684E562F86246D0323640F5E17BBD3 /* Pods-MetaRent-Socket_Tests-acknowledgements.plist */,
+				6A4BDB35F6C0F94B4858DDB60FE4D1C2 /* Pods-MetaRent-Socket_Tests-dummy.m */,
+				1AB3BAEFF5A8A5ECC7709A35B160C0D1 /* Pods-MetaRent-Socket_Tests-Info.plist */,
+				65586FD89F4881448427798072D2446E /* Pods-MetaRent-Socket_Tests-umbrella.h */,
+				425EA9D3EF3056C58FFED117D5A7976A /* Pods-MetaRent-Socket_Tests.debug.xcconfig */,
+				2848A99DFE181F3DA10077BACDB22CE8 /* Pods-MetaRent-Socket_Tests.release.xcconfig */,
+			);
+			name = "Pods-MetaRent-Socket_Tests";
+			path = "Target Support Files/Pods-MetaRent-Socket_Tests";
+			sourceTree = "<group>";
+		};
+		506DC478B0AEB998BD2A79607E367D8C /* MetaRent-Socket */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE858F41D09383E606304D573E4E12 /* Core */,
+				38270876DF07C0E7F8ACBD73DD406F0D /* Pod */,
+				D8C95007E89438A57B061CDA9DD39EAA /* Support Files */,
+				7D599DEA2B5C549870A6B6787BC3881B /* Thirdpart */,
+			);
+			name = "MetaRent-Socket";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		528284F6F0F187E43AB45552760F6032 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB13A1746FCE233E7FA6F12D3E79016 /* Pods-MetaRent-Socket_Example */,
+				43CDCF6EBCEEDC4832E4BBD31B0D6F24 /* Pods-MetaRent-Socket_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F625B9C0D3C297053DA033258862948 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				506DC478B0AEB998BD2A79607E367D8C /* MetaRent-Socket */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		77E240D7BBCA6DF6816552DD2C0C21BB /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				A7275F33399BCD133E076945E67D4130 /* AutoReLoginDaemon.h */,
+				BFB8B4EDFA9D06B27FCD141EA562F639 /* AutoReLoginDaemon.m */,
+				BA00D9ABC0C283D7C4B01285923D42F1 /* KeepAliveDaemon.h */,
+				9E96D7C7C55F8F9CA9C831F78C4BC50B /* KeepAliveDaemon.m */,
+				3E892012FE44C0C3B472ADE6C808D4F1 /* LocalDataReciever.h */,
+				BF180C6061019BDE07CEF2079194E938 /* LocalDataReciever.m */,
+				592B620BF148928CD759ED9715F716B5 /* LocalDataSender.h */,
+				6D6FC0D90BD6A7C7CE09739FB7A222FC /* LocalDataSender.m */,
+				04296F37C70121EBD291D6AF91D18123 /* LocalSocketProvider.h */,
+				A605F6E83944A927BFC1818A3395FE81 /* LocalSocketProvider.m */,
+				9108292A96A0BBE0F0EC24ED08BA390F /* QoS4ReciveDaemon.h */,
+				58556EEE242720AC60477F04C4BE4DEB /* QoS4ReciveDaemon.m */,
+				175DDB18A3949675001DDA6C7CCBFFBF /* QoS4SendDaemon.h */,
+				B038C88BBC740D92CB4EDE79D46E9C8A /* QoS4SendDaemon.m */,
+			);
+			name = Impl;
+			path = Impl;
+			sourceTree = "<group>";
+		};
+		7D599DEA2B5C549870A6B6787BC3881B /* Thirdpart */ = {
+			isa = PBXGroup;
+			children = (
+				99668CFB3101A2E5AE48D552558FEE6F /* GCD7.6.4 */,
+				CFB8D9A78C2449A62D1A7AC6DD6F4B15 /* Reachability */,
+				DF521C6A300C2AE247F0055EDD3139D4 /* RMMapper */,
+			);
+			name = Thirdpart;
+			path = "MetaRent-Socket/Classes/Thirdpart";
+			sourceTree = "<group>";
+		};
+		99668CFB3101A2E5AE48D552558FEE6F /* GCD7.6.4 */ = {
+			isa = PBXGroup;
+			children = (
+				D1E55286491D82CED3C8EB2B2BEF4D68 /* Documentation.html */,
+				9E47A5E051BBC5EB3D0E10754E0FF673 /* MBGCDAsyncSocket.h */,
+				8C31A1FFEF3E3F4FCA145A29C8652F67 /* MBGCDAsyncSocket.m */,
+			);
+			name = GCD7.6.4;
+			path = GCD7.6.4;
+			sourceTree = "<group>";
+		};
+		A9EE858F41D09383E606304D573E4E12 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F7BBC9E3ADE9A83E1BCC4AFD1735AB6A /* ClientCoreSDK.h */,
+				7846787502E572CB580368E846CF02C4 /* ClientCoreSDK.m */,
+				0FBB952D7413C3FDE3EA40F73DAF5275 /* ConfigEntity.h */,
+				B3EC252CB04C86BA92F14D6B128154BB /* ConfigEntity.m */,
+				D646D4E0E015ED4369997BD962042219 /* Codec */,
+				185DDB7754D6199DF7D893CB82B8BDB9 /* Delegate */,
+				77E240D7BBCA6DF6816552DD2C0C21BB /* Impl */,
+				F501A799053D1CB3CFB83343058ED280 /* Other */,
+				EAF32253BCF948FBC9D689BDAA18E7FC /* Protocal */,
+				EC72A09E2BDCA9B2D1292982506F7383 /* Utils */,
+			);
+			name = Core;
+			path = "MetaRent-Socket/Classes/Core";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6F625B9C0D3C297053DA033258862948 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0FF3C072130ABCE2B9AB7D7000A9D06A /* Products */,
+				528284F6F0F187E43AB45552760F6032 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB8D9A78C2449A62D1A7AC6DD6F4B15 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				6E8E2D0F7AA0F8FBB534D7985CCA9794 /* MBReachability.h */,
+				D2C8B9E251605773EEBDB18149F84FA3 /* MBReachability.m */,
+			);
+			name = Reachability;
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D646D4E0E015ED4369997BD962042219 /* Codec */ = {
+			isa = PBXGroup;
+			children = (
+				944FBE830859F2238873DDEEE73FA9E6 /* TCPFrameCodec.h */,
+				45AA0C758010A223381606369902889F /* TCPFrameCodec.m */,
+			);
+			name = Codec;
+			path = Codec;
+			sourceTree = "<group>";
+		};
+		D8C95007E89438A57B061CDA9DD39EAA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B641A6153614574573940C617B94B7BB /* MetaRent-Socket.modulemap */,
+				379368F862274761405206362F820A5A /* MetaRent-Socket-dummy.m */,
+				AE10539A153997F70B50578C691F2EFB /* MetaRent-Socket-Info.plist */,
+				E58291DF8611DF1B42B3BC414110C44E /* MetaRent-Socket-prefix.pch */,
+				CA9FDAD3C08AE214689BBD5AA4F90338 /* MetaRent-Socket-umbrella.h */,
+				35E3469226B47433D71FC8C1F692DA0E /* MetaRent-Socket.debug.xcconfig */,
+				DD900036846F60B37E98BED9F5E8FD2C /* MetaRent-Socket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MetaRent-Socket";
+			sourceTree = "<group>";
+		};
+		DF521C6A300C2AE247F0055EDD3139D4 /* RMMapper */ = {
+			isa = PBXGroup;
+			children = (
+				39114C6D7A60C7B557E5A783D779D22F /* NSObject+RMArchivable.h */,
+				A895A028073644C7FCF4B58F9143C447 /* NSObject+RMArchivable.m */,
+				542C520466DA785FFF49F9D64A8EF6BF /* NSObject+RMCopyable.h */,
+				ACBBC63EE8675CDD61680B9008F56FA5 /* NSObject+RMCopyable.m */,
+				35CEBF6272545BB494C165DC27A77030 /* NSUserDefaults+RMSaveCustomObject.h */,
+				A081CD73F630168FD10A109F9EEF73C8 /* NSUserDefaults+RMSaveCustomObject.m */,
+				4E7CF82B524A708F2B6EB3A22629E16F /* RMMapper.h */,
+				410C98CD6DE45844FF20FA419CEFD7B9 /* RMMapper.m */,
+			);
+			name = RMMapper;
+			path = RMMapper;
+			sourceTree = "<group>";
+		};
+		DFB13A1746FCE233E7FA6F12D3E79016 /* Pods-MetaRent-Socket_Example */ = {
+			isa = PBXGroup;
+			children = (
+				264B43F1A1FEBA1A78661CDDBE6112F5 /* Pods-MetaRent-Socket_Example.modulemap */,
+				96F87D1DDFCBF796A6D18CBAFB93BDDC /* Pods-MetaRent-Socket_Example-acknowledgements.markdown */,
+				CB99A594E6E225A570A722DDDCFA71F1 /* Pods-MetaRent-Socket_Example-acknowledgements.plist */,
+				BB85D9DDD458A6AE2C0225B084634ED4 /* Pods-MetaRent-Socket_Example-dummy.m */,
+				EB98A931235347E0D70027EDCECE74C7 /* Pods-MetaRent-Socket_Example-frameworks.sh */,
+				3F2BD4136B26571F086EC34D0101519A /* Pods-MetaRent-Socket_Example-Info.plist */,
+				37BD3A570EA26EA6BD109CD3091DBCFC /* Pods-MetaRent-Socket_Example-umbrella.h */,
+				9CA2B38A71ACD6150C4EEE921833C27B /* Pods-MetaRent-Socket_Example.debug.xcconfig */,
+				427F53F40178A4A8785195626FB4398E /* Pods-MetaRent-Socket_Example.release.xcconfig */,
+			);
+			name = "Pods-MetaRent-Socket_Example";
+			path = "Target Support Files/Pods-MetaRent-Socket_Example";
+			sourceTree = "<group>";
+		};
+		EAF32253BCF948FBC9D689BDAA18E7FC /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+				18B78924B26209F4E98D6FFD7B3D7F0E /* CharsetHelper.h */,
+				BFFF0574711DAABB91E90001C27691BE /* CharsetHelper.m */,
+				D36FED12A96852AC4715B72299D3410C /* ErrorCode.h */,
+				A3169E992D42C2E7C2DE8F99FB97DBF4 /* PErrorResponse.h */,
+				EECDF9F853AEFB3F604D88A9D92D4FE7 /* PErrorResponse.m */,
+				43F50A50DEC5023EAD9DE2581D3DBBF9 /* PKeepAlive.h */,
+				454F656EE509C751EF62820BCCE8AB13 /* PKeepAlive.m */,
+				5787C577DE8226E2F8FECDE8E121CCF6 /* PKeepAliveResponse.h */,
+				E7EFEF50BDF4E5E9F22172D96F42F1D5 /* PKeepAliveResponse.m */,
+				4E8E61EB0DA1F77249CCC79810275A0E /* PKickoutInfo.h */,
+				40FC6181D8E19418AF0F8881C60CADC3 /* PKickoutInfo.m */,
+				B70FE34CEF268E519F09B9481BEF872C /* PLoginInfo.h */,
+				D833A510AA2ACE5F2E08C7B135A06900 /* PLoginInfo.m */,
+				BDFF4D3890D9F40DA8E967316020B573 /* PLoginInfoResponse.h */,
+				10EE4F1C88E5E5E65384F840069E8B96 /* PLoginInfoResponse.m */,
+				81E407111B311CD6E71FA725618258AF /* Protocal.h */,
+				FF66212CE943BDB9F38472A1DA6A4D5C /* Protocal.m */,
+				7523C8FB8AF6C94720C0090C19333453 /* ProtocalFactory.h */,
+				D63E8323A1F150BDDF67D1F6812A725B /* ProtocalFactory.m */,
+				68FFC27A75B4FB3182F3C5DAC1A95A17 /* ProtocalType.h */,
+			);
+			name = Protocal;
+			path = Protocal;
+			sourceTree = "<group>";
+		};
+		EC72A09E2BDCA9B2D1292982506F7383 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DA70907B91FEC382DA28C5033E82717D /* TCPUtils.h */,
+				B5B5A16744E34038A0F06C039FACA5FA /* TCPUtils.m */,
+				D96AD61E3695540E4D7D889324FB2A74 /* ToolKits.h */,
+				32C780EF54EA2010745644DF5942FB16 /* ToolKits.m */,
+			);
+			name = Utils;
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F501A799053D1CB3CFB83343058ED280 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				25021B740BA36132E31CCFBE36069984 /* CompletionDefine.h */,
+				282246AF2E6C17870EA8967FDA4A2453 /* NSMutableDictionary+Ext.h */,
+				3ABE655E6AB6017B730EF4886F8C67C1 /* NSMutableDictionary+Ext.m */,
+			);
+			name = Other;
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30883B1EB987F6B855FB08CF2A864B82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBAD6E8D196BDA94736398CB0BBB7EE /* Pods-MetaRent-Socket_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3289472DBA35AC3CE1C19C9425593796 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA26E8C01727AE73E5E1302AD3502F3C /* Pods-MetaRent-Socket_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BA0DEC8DCF46250765CD3FC5B6AA1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945D253715CA51122EC0328A9B8F08C4 /* AutoReLoginDaemon.h in Headers */,
+				324BB40480F5C1406D9D48B999A8DFF1 /* CharsetHelper.h in Headers */,
+				6B017E73DDC4AC4CCB2E225FED2EDAC7 /* ChatBaseEvent.h in Headers */,
+				ED8358A2B050F453A53985C618972549 /* ChatMessageEvent.h in Headers */,
+				BBB3C7AE8BCEC330A16F8C7AD4C79985 /* ClientCoreSDK.h in Headers */,
+				BFB9A8F50889CA2CCAB175003FEEF9BE /* CompletionDefine.h in Headers */,
+				5CF17C1C11DF48D13B9EED3777402C06 /* ConfigEntity.h in Headers */,
+				F9D4A9808AEC04394AC61663F9CB30A5 /* ErrorCode.h in Headers */,
+				A8A8CDF84EBF99813E38B9B0650DFC0F /* KeepAliveDaemon.h in Headers */,
+				E6CA69F233A4AB033A642E3E16A0B038 /* LocalDataReciever.h in Headers */,
+				FDD9495CF26D5C2753CC0C0CC99CC687 /* LocalDataSender.h in Headers */,
+				A3CFF77C8DE619936D32A51EF69D367D /* LocalSocketProvider.h in Headers */,
+				180D4E3762BAFD55F85CFDB5608D7313 /* MBGCDAsyncSocket.h in Headers */,
+				E30B7CA31E7C2C70175AC94E956D983D /* MBReachability.h in Headers */,
+				8DB8EE4B0FE88D3C2CD5EE12DC6E082C /* MessageQoSEvent.h in Headers */,
+				EA2BE8F33D66B11E8C636DBDE396E56B /* MetaRent-Socket-umbrella.h in Headers */,
+				3422C2DE8B45DC57200D3AE4D6736EAB /* NSMutableDictionary+Ext.h in Headers */,
+				A3822674AAAA6A21709D11C8719F4E2B /* NSObject+RMArchivable.h in Headers */,
+				948ADBE431D24CA2D57A034DE2C42AB5 /* NSObject+RMCopyable.h in Headers */,
+				0157F6A65921DF7573AEE18B08A4D86B /* NSUserDefaults+RMSaveCustomObject.h in Headers */,
+				1C9A5488D2793D7EB30AC6A98B435545 /* PErrorResponse.h in Headers */,
+				83E14BB4371A0EFEFF1605EA0F27089F /* PKeepAlive.h in Headers */,
+				03F8F69AB62000BF37F1C2386E0A2790 /* PKeepAliveResponse.h in Headers */,
+				E32849C6F12EB6C6CDC7BFF033C993CC /* PKickoutInfo.h in Headers */,
+				DC6FDF3B38F00544F63405B6DAF352DF /* PLoginInfo.h in Headers */,
+				A424A952FC20E42382C152B4850490D6 /* PLoginInfoResponse.h in Headers */,
+				02B77E10958566C7EECF22E31867C45D /* Protocal.h in Headers */,
+				257D13EBCFB08A3156369308B9A2D87E /* ProtocalFactory.h in Headers */,
+				4B83428602C1779780BDD18372BA8306 /* ProtocalType.h in Headers */,
+				0B961F15BD9DBE9CA7493C2087E5C50B /* QoS4ReciveDaemon.h in Headers */,
+				3865F90C7DC0B9B5701BBC27FB55CB04 /* QoS4SendDaemon.h in Headers */,
+				C0C5C07C181E7CD594A9F1FEC621D696 /* RMMapper.h in Headers */,
+				75B79D5EA87DE91F08CE3526F5D9E603 /* TCPFrameCodec.h in Headers */,
+				06998114495A6FD0FD1F908D035ADF1C /* TCPUtils.h in Headers */,
+				143F4CEB00B691EECE40C75E108C64E7 /* ToolKits.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6064F286FEAC5335665A3F3893AEF7CA /* Pods-MetaRent-Socket_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C971D9C017B761D04DB8415428DB07C /* Build configuration list for PBXNativeTarget "Pods-MetaRent-Socket_Example" */;
+			buildPhases = (
+				3289472DBA35AC3CE1C19C9425593796 /* Headers */,
+				C0B1FAFC7A6EE6AE0BABBC42C5901C3A /* Sources */,
+				DF0DECC1F3960A120C4EB54229D50DEB /* Frameworks */,
+				166469A590AEBDE6497BC6CCFF36C526 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC97CADB2BA92033CE167D4CE7DBADB2 /* PBXTargetDependency */,
+			);
+			name = "Pods-MetaRent-Socket_Example";
+			productName = Pods_MetaRent_Socket_Example;
+			productReference = 397E579FB22DBE20D980C9C2351ECD21 /* Pods-MetaRent-Socket_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		6DCF6A3492C43B501B090A25A5AAFB90 /* Pods-MetaRent-Socket_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55776DEC060D7422634AC77E7DA24CB /* Build configuration list for PBXNativeTarget "Pods-MetaRent-Socket_Tests" */;
+			buildPhases = (
+				30883B1EB987F6B855FB08CF2A864B82 /* Headers */,
+				23B5B57005F01D649C176DE828903D92 /* Sources */,
+				9AE43D969BC6E57B1E2850D6E724A86D /* Frameworks */,
+				5247104A23892D3D142FF8238700131C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5C2A438953C7D5493C8F435630877EB /* PBXTargetDependency */,
+			);
+			name = "Pods-MetaRent-Socket_Tests";
+			productName = Pods_MetaRent_Socket_Tests;
+			productReference = 55E9DE6EB07C6D98F4E937CB6978B6B8 /* Pods-MetaRent-Socket_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5606A7849E90CD10D99960F163CBDA5 /* MetaRent-Socket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9D9E118F6754E6C8FBB9C8F941BEA1 /* Build configuration list for PBXNativeTarget "MetaRent-Socket" */;
+			buildPhases = (
+				76BA0DEC8DCF46250765CD3FC5B6AA1D /* Headers */,
+				AB6C3F0B2E528703CBAEB95DE8DF9821 /* Sources */,
+				FFD45E03E8EEB9885D238A1672C8F299 /* Frameworks */,
+				AABEEB6E1AA77A8BEE7EA30863D6B648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetaRent-Socket";
+			productName = MetaRent_Socket;
+			productReference = CADBB53CB269492C99F059BC22F6BAE4 /* MetaRent-Socket */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0FF3C072130ABCE2B9AB7D7000A9D06A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5606A7849E90CD10D99960F163CBDA5 /* MetaRent-Socket */,
+				6064F286FEAC5335665A3F3893AEF7CA /* Pods-MetaRent-Socket_Example */,
+				6DCF6A3492C43B501B090A25A5AAFB90 /* Pods-MetaRent-Socket_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		166469A590AEBDE6497BC6CCFF36C526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5247104A23892D3D142FF8238700131C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABEEB6E1AA77A8BEE7EA30863D6B648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23B5B57005F01D649C176DE828903D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815CC95F1203C74CC03F568BA7A1F14F /* Pods-MetaRent-Socket_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6C3F0B2E528703CBAEB95DE8DF9821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA4C3D7B3917CC922CF705865082381 /* AutoReLoginDaemon.m in Sources */,
+				3DE4B7F88E286573DE0F0403B0F6FCAA /* CharsetHelper.m in Sources */,
+				5E47E1B75F6E3DF90BF7B4C4256BA7F2 /* ClientCoreSDK.m in Sources */,
+				D323E6071F121382E807FF9E95DB7C46 /* ConfigEntity.m in Sources */,
+				366FBBFEE76CEE25C0C20818AFB5A688 /* Documentation.html in Sources */,
+				C5E0185D56328C6A45AC7F71DAF06567 /* KeepAliveDaemon.m in Sources */,
+				C47A7A63E26B26F33B488E03AD10DBD9 /* LocalDataReciever.m in Sources */,
+				B33B9D43E52A31152BFA5DF75AF4D71D /* LocalDataSender.m in Sources */,
+				0C1FB6350DF026F59F08BF4321B43064 /* LocalSocketProvider.m in Sources */,
+				8D27DDD79BC57A5C9D236CB92FA7FD3B /* MBGCDAsyncSocket.m in Sources */,
+				BC48B06E7D11A6044ACFEDEFFAF2FCE7 /* MBReachability.m in Sources */,
+				9B4E33A6E5E6961958ECE81B64148886 /* MetaRent-Socket-dummy.m in Sources */,
+				A9C1DB34D42632DE34AE5AB0E5D80695 /* NSMutableDictionary+Ext.m in Sources */,
+				4AD7E21774788D1D2BFD8655B20F82B1 /* NSObject+RMArchivable.m in Sources */,
+				AEB7D158F4F4350B93A39E75A079B00C /* NSObject+RMCopyable.m in Sources */,
+				AAFB2F9F5C1EDBFF6D78DAACBEE37B3D /* NSUserDefaults+RMSaveCustomObject.m in Sources */,
+				7374F2E9AE17F2F3C8FAA7FF3D2B0640 /* PErrorResponse.m in Sources */,
+				3778670781DB6BD844CD7B9A36AB5D51 /* PKeepAlive.m in Sources */,
+				23FF9B460E6CE458E4C9071A17E22153 /* PKeepAliveResponse.m in Sources */,
+				168439569DD7A5ED3EA69F66F3414679 /* PKickoutInfo.m in Sources */,
+				F1DF5A2C3B5A4A6D363FC8CA1BEF9880 /* PLoginInfo.m in Sources */,
+				27546FBF440524BEC635A11A84825264 /* PLoginInfoResponse.m in Sources */,
+				12B8F04148D93307FB4273BDF312A3B0 /* Protocal.m in Sources */,
+				1477914C3355DF448E6BF6249221EE62 /* ProtocalFactory.m in Sources */,
+				16718363A5D047D6C6B2D8C6F14464B8 /* QoS4ReciveDaemon.m in Sources */,
+				88582A0914AF819F1032AAECA9FE0985 /* QoS4SendDaemon.m in Sources */,
+				F7278ADC55941110A98453F95E75D665 /* RMMapper.m in Sources */,
+				C7AF534B88114875086DE763DB57236D /* TCPFrameCodec.m in Sources */,
+				45290CBFAD820503981887C7D5AEFBA2 /* TCPUtils.m in Sources */,
+				42AB6B2C7B6AD121407C0B37B46C16E9 /* ToolKits.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B1FAFC7A6EE6AE0BABBC42C5901C3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4A6D070DB1B5CA0B5B8A12CEEFBAFC /* Pods-MetaRent-Socket_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC97CADB2BA92033CE167D4CE7DBADB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MetaRent-Socket";
+			target = F5606A7849E90CD10D99960F163CBDA5 /* MetaRent-Socket */;
+			targetProxy = D117FF3F7F5ACFBA4121F1506968B095 /* PBXContainerItemProxy */;
+		};
+		E5C2A438953C7D5493C8F435630877EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MetaRent-Socket_Example";
+			target = 6064F286FEAC5335665A3F3893AEF7CA /* Pods-MetaRent-Socket_Example */;
+			targetProxy = 62324493900FBFD2A14F7B05400A4D4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F8D17F439D6CA04C0AE9E6004D76F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E3469226B47433D71FC8C1F692DA0E /* MetaRent-Socket.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MetaRent-Socket/MetaRent-Socket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MetaRent-Socket/MetaRent-Socket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MetaRent-Socket/MetaRent-Socket.modulemap";
+				PRODUCT_MODULE_NAME = MetaRent_Socket;
+				PRODUCT_NAME = MetaRent_Socket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C7E4E26731E4FA86BF40CF3869114A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 427F53F40178A4A8785195626FB4398E /* Pods-MetaRent-Socket_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetaRent-Socket_Example/Pods-MetaRent-Socket_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetaRent-Socket_Example/Pods-MetaRent-Socket_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75B74B5D89E761B2F632D0A73710CDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2848A99DFE181F3DA10077BACDB22CE8 /* Pods-MetaRent-Socket_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetaRent-Socket_Tests/Pods-MetaRent-Socket_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetaRent-Socket_Tests/Pods-MetaRent-Socket_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C1496630F691AECECB1CEFB37D97257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA2B38A71ACD6150C4EEE921833C27B /* Pods-MetaRent-Socket_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetaRent-Socket_Example/Pods-MetaRent-Socket_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetaRent-Socket_Example/Pods-MetaRent-Socket_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A57E635ED4BB73A97F0AA1CCCA72249E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD900036846F60B37E98BED9F5E8FD2C /* MetaRent-Socket.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MetaRent-Socket/MetaRent-Socket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MetaRent-Socket/MetaRent-Socket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MetaRent-Socket/MetaRent-Socket.modulemap";
+				PRODUCT_MODULE_NAME = MetaRent_Socket;
+				PRODUCT_NAME = MetaRent_Socket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2B623E44A61650728CF79F7811AB509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 425EA9D3EF3056C58FFED117D5A7976A /* Pods-MetaRent-Socket_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetaRent-Socket_Tests/Pods-MetaRent-Socket_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetaRent-Socket_Tests/Pods-MetaRent-Socket_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C971D9C017B761D04DB8415428DB07C /* Build configuration list for PBXNativeTarget "Pods-MetaRent-Socket_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C1496630F691AECECB1CEFB37D97257 /* Debug */,
+				5C7E4E26731E4FA86BF40CF3869114A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B9D9E118F6754E6C8FBB9C8F941BEA1 /* Build configuration list for PBXNativeTarget "MetaRent-Socket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8D17F439D6CA04C0AE9E6004D76F21 /* Debug */,
+				A57E635ED4BB73A97F0AA1CCCA72249E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55776DEC060D7422634AC77E7DA24CB /* Build configuration list for PBXNativeTarget "Pods-MetaRent-Socket_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B623E44A61650728CF79F7811AB509 /* Debug */,
+				75B74B5D89E761B2F632D0A73710CDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

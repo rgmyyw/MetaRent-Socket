@@ -1,0 +1,6 @@
+framework module MetaRent_Socket {
+  umbrella header "MetaRent-Socket-umbrella.h"
+
+  export *
+  module * { export * }
+}
